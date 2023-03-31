@@ -1,0 +1,74 @@
+header,
+.video--card,
+form, 
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  height: 20vh;
+  font-size: 2rem;
+  font-weight: bold;
+  color: yellow;
+}
+header>a{
+  color: inherit;
+  background: none;
+  font-size: inherit;
+}
+.video--card{
+  max-width: 700px;
+  margin: 2rem auto;
+  flex-direction: column;
+}
+form{
+  flex-direction: column;
+}
+form > input{
+  max-width: 700px;
+  min-width: 340px;
+  height: 3rem;
+  padding: 0 1rem;
+  border: 1px solid rgb(209, 207, 207);
+  border-radius: 30px;
+  outline: none;
+}
+
+button, 
+a{
+  padding: 0.7rem 1.5rem;
+  margin: 1rem;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.video--title{
+  color: cornsilk;
+  font-size: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  margin: 1rem;
+}
+.error{
+  color: cornsilk;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.error> p{
+  text-align: center;
+}
+.loading{
+  position: absolute;
+  inset: 0;
+  background-color: #f2f2dc;
+  z-index: 200;
+}
+.loading > img{
+  width: 30%;
+}

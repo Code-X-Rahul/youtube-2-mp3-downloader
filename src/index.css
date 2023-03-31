@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: rgb(230, 49, 49);
+  background: linear-gradient(
+    319deg,
+    rgba(230, 49, 49, 1) 0%,
+    rgba(226, 87, 32, 1) 35%,
+    rgba(199, 16, 16, 1) 61%,
+    rgba(163, 158, 18, 1) 100%
+  );
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
